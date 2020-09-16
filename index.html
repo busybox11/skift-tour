@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+<title>skiftOS online</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+</head>
+<body id="desktop">
+<div id="panel" class="fill-transparent">
+<button class="normal-button margin-button" id="applications_btn"><i class="mdi mdi-menu" aria-hidden="true"></i> Applications</button>
+<span id="time">{{ get_time() }}</span>
+</div>
+
+<div id="menu" class="fill-transparent">
+<button class="normal-button margin-button align-left menu-item" id="settings-menu-item"><i class="mdi mdi-cog" aria-hidden="true"></i> Settings</button>
+<button class="normal-button margin-button align-left menu-item" id="calc-menu-item"><i class="mdi mdi-calculator" aria-hidden="true"></i> Calculator</button>
+<button class="normal-button margin-button align-left menu-item" id="about-menu-item"><i class="mdi mdi-information" aria-hidden="true"></i> About</button>
+<button class="normal-button margin-button align-left menu-item" id="demos-menu-item"><i class="mdi mdi-duck" aria-hidden="true"></i> Demos</button>
+<button class="normal-button margin-button align-left menu-item" id="device-man-menu-item"><i class="mdi mdi-expansion-card-variant" aria-hidden="true"></i> Device Manager</button>
+<button class="normal-button margin-button align-left menu-item" id="file-man-menu-item"><i class="mdi mdi-folder-outline" aria-hidden="true"></i> File Manager</button>
+<button class="normal-button margin-button align-left menu-item" id="paint-menu-item"><i class="mdi mdi-brush" aria-hidden="true"></i> Paint</button>
+<button class="normal-button margin-button align-left menu-item" id="task-man-menu-item"><i class="mdi mdi-memory" aria-hidden="true"></i> Task Manager</button>
+<button class="normal-button margin-button align-left menu-item" id="term-menu-item"><i class="mdi mdi-console" aria-hidden="true"></i> Terminal</button>
+<button class="normal-button margin-button align-left menu-item" id="text-ed-menu-item"><i class="mdi mdi-text-box" aria-hidden="true"></i> Text Editor</button>
+<button class="normal-button margin-button align-left menu-item" id="widger-fac-menu-item"><i class="mdi mdi-widgets" aria-hidden="true"></i> Widget Factory</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
